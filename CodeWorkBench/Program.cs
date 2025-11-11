@@ -1,4 +1,5 @@
 ﻿using System;
+using CodeWorkBench.Math;
 
 namespace CodeWorkBench
 {
@@ -22,6 +23,7 @@ namespace CodeWorkBench
                 switch (input.Trim())
                 {
                     case "1":
+                        Primes.demo();
                         break;
                     case "2":
                         break;

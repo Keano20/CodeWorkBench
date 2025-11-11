@@ -18,6 +18,21 @@ namespace CodeWorkBench
 
                 var input = Console.ReadLine();
                 if (String.IsNullOrWhiteSpace(input)) break;
+
+                switch (input.Trim())
+                {
+                    case "1":
+                        break;
+                    case "2":
+                        break;
+                    case "3":
+                        break;
+                    case "4":
+                        break;
+                    default:
+                        Console.WriteLine("Unknown choice");
+                        break;
+                }
             }
         }
     }

@@ -11,7 +11,7 @@ namespace CodeWorkBench
             {
                 Console.WriteLine("\nPractice Lab");
                 Console.WriteLine("1) Primes demo");
-                Console.WriteLine("2) Factors and GCD demo");
+                Console.WriteLine("2) Factors");
                 Console.WriteLine("3) String palindrome demo");
                 Console.WriteLine("4) Nested loops demo");
                 Console.WriteLine("Enter to quit.");
@@ -23,9 +23,10 @@ namespace CodeWorkBench
                 switch (input.Trim())
                 {
                     case "1":
-                        Primes.demo();
+                        Primes.Demo();
                         break;
                     case "2":
+                        Factors.Demo();
                         break;
                     case "3":
                         break;

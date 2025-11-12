@@ -30,7 +30,7 @@ public static class Primes
     }
     
     // Demo runner
-    public static void demo()
+    public static void Demo()
     {
         Console.Write("Enter an upper limit: ");
         if (int.TryParse(Console.ReadLine(), out int limit))

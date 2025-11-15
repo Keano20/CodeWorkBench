@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace CodeWorkBench.Math;
 
-public class LinqDemo
+public class LinqNumberDemo
 {
     public static void Demo()
     {

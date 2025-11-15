@@ -12,7 +12,7 @@ namespace CodeWorkBench
                 Console.WriteLine("\nPractice Lab");
                 Console.WriteLine("1) Primes demo");
                 Console.WriteLine("2) Factors");
-                Console.WriteLine("3) Linq Demo");
+                Console.WriteLine("3) Linq numbers demo");
                 Console.WriteLine("4) Nested loops demo");
                 Console.WriteLine("Enter to quit.");
                 Console.Write("Choice: ");
@@ -29,7 +29,7 @@ namespace CodeWorkBench
                         Factors.Demo();
                         break;
                     case "3":
-                        LinqDemo.Demo();
+                        LinqNumberDemo.Demo();
                         break;
                     case "4":
                         break;

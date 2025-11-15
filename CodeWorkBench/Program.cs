@@ -1,4 +1,5 @@
 ﻿using System;
+using CodeWorkBench.Linq;
 using CodeWorkBench.Math;
 
 namespace CodeWorkBench
@@ -12,8 +13,8 @@ namespace CodeWorkBench
                 Console.WriteLine("\nPractice Lab");
                 Console.WriteLine("1) Primes demo");
                 Console.WriteLine("2) Factors");
-                Console.WriteLine("3) Linq numbers demo");
-                Console.WriteLine("4) Nested loops demo");
+                Console.WriteLine("3) LINQ numbers demo");
+                Console.WriteLine("4) LINQ Objects demo");
                 Console.WriteLine("Enter to quit.");
                 Console.Write("Choice: ");
 
@@ -32,6 +33,7 @@ namespace CodeWorkBench
                         LinqNumberDemo.Demo();
                         break;
                     case "4":
+                        LinqObjectDemo.Demo();
                         break;
                     default:
                         Console.WriteLine("Unknown choice");

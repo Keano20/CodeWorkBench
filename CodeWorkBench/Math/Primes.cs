@@ -1,4 +1,5 @@
 using System;
+
 namespace CodeWorkBench.Math;
 
 public static class Primes

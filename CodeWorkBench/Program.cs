@@ -1,6 +1,7 @@
 ﻿using System;
 using CodeWorkBench.Linq;
 using CodeWorkBench.Math;
+using CodeWorkBench.Strings;
 
 namespace CodeWorkBench
 {
@@ -15,6 +16,7 @@ namespace CodeWorkBench
                 Console.WriteLine("2) Factors");
                 Console.WriteLine("3) LINQ numbers demo");
                 Console.WriteLine("4) LINQ Objects demo");
+                Console.WriteLine("5) Strings");
                 Console.WriteLine("Enter to quit.");
                 Console.Write("Choice: ");
 
@@ -34,6 +36,9 @@ namespace CodeWorkBench
                         break;
                     case "4":
                         LinqObjectDemo.Demo();
+                        break;
+                    case "5":
+                        StringDemo.run();
                         break;
                     default:
                         Console.WriteLine("Unknown choice");

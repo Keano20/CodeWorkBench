@@ -2,6 +2,7 @@
 using CodeWorkBench.Linq;
 using CodeWorkBench.Math;
 using CodeWorkBench.Strings;
+using CodeWorkBench.Algorithms;
 
 namespace CodeWorkBench
 {
@@ -17,6 +18,7 @@ namespace CodeWorkBench
                 Console.WriteLine("3) LINQ numbers demo");
                 Console.WriteLine("4) LINQ Objects demo");
                 Console.WriteLine("5) Strings");
+                Console.WriteLine("6) Bubble Sort");
                 Console.WriteLine("Enter to quit.");
                 Console.Write("Choice: ");
 
@@ -40,8 +42,12 @@ namespace CodeWorkBench
                     case "5":
                         StringDemo.run();
                         break;
+                    case "6":
+                        Sorting.Demo();
+                        break;
+                        
                     default:
-                        Console.WriteLine("Unknown choice");
+                        Console.WriteLine("Invalid option. Please try again.");
                         break;
                 }
             }

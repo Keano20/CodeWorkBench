@@ -1,4 +1,4 @@
-namespace CodeWorkBench.Models;
+namespace CodeWorkBench.Linq.Models;
 
 public class Person
 {

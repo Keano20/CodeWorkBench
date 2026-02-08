@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 using System.Collections.Generic;
-using CodeWorkBench.Models;
+using CodeWorkBench.Linq.Models;
 
 namespace CodeWorkBench.Linq;
 

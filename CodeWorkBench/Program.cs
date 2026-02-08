@@ -19,6 +19,7 @@ namespace CodeWorkBench
                 Console.WriteLine("4) LINQ Objects demo");
                 Console.WriteLine("5) Strings");
                 Console.WriteLine("6) Bubble Sort");
+                Console.WriteLine("7) Object-Oriented Programming");
                 Console.WriteLine("Enter to quit.");
                 Console.Write("Choice: ");
 
@@ -44,6 +45,9 @@ namespace CodeWorkBench
                         break;
                     case "6":
                         Sorting.Demo();
+                        break;
+                    case "7":
+                        OopDemo.Run();
                         break;
                         
                     default:

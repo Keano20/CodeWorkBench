@@ -5,10 +5,11 @@ public static class OopDemo
 {
     public static void Run()
     {
-        // A list of the abstract type holding different concrete types
+        // A list of the abstract type (SmartDevice) holding different concrete types
         List<SmartDevice> devices = new List<SmartDevice>
         {
             new SmartSpeaker { DeviceName = "Sony Smart Speaker" },
+            new SmartCamera {DeviceName = "Oracle Smart Camera"},
         };
 
         Console.WriteLine("\n--- Smart Home Sync ---");
@@ -24,6 +25,13 @@ public static class OopDemo
                 volume.VolumeUp();
                 volume.VolumeDown();
                 volume.Mute();
+            }
+
+            if (device is IMotionDetection motion)
+            {
+                motion.NoThreatsDetected();
+                motion.NightVisionMode();
+                motion.ThreatDetected();
             }
             
             if (device is IPowerable powerD) powerD.TurnOff();

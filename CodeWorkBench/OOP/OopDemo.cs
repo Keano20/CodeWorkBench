@@ -10,6 +10,7 @@ public static class OopDemo
         {
             new SmartSpeaker { DeviceName = "Sony Smart Speaker" },
             new SmartCamera {DeviceName = "Oracle Smart Camera"},
+            new SmartTv(){DeviceName = "Samsung Smart TV "}
         };
 
         Console.WriteLine("\n--- Smart Home Sync ---");
@@ -33,8 +34,16 @@ public static class OopDemo
                 motion.NightVisionMode();
                 motion.ThreatDetected();
             }
+
+            if (device is IMovie movie)
+            {
+                movie.Pause();
+                movie.FastForward();
+                movie.Rewind();
+                movie.ScreenRecord();
+            }
             
-            if (device is IPowerable powerD) powerD.TurnOff();
+            if (device is IPowerable powerOff) powerOff.TurnOff();
             
             Console.WriteLine("-----------------------");
         }

@@ -7,7 +7,7 @@ public abstract class SmartDevice
     
     public void ConnectToWifi()
     {
-        Console.WriteLine($"{DeviceName} is connecting to the home network...");
+        Console.WriteLine($"{DeviceName} is connecting to the home WiFi network...");
     }
     
     public abstract void ShowStatus();
